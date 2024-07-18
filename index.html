@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBS Tool Components</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Existing Content -->
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Deloitte_Logo.png" alt="Deloitte Logo" width="100">
+        </div>
+        <!-- <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Clientele</a></li>
+                <li><a href="#">Thoughtware</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">More on GBS</a></li>
+            </ul>
+        </nav> -->
+        <div class="actions">
+            <!-- <a href="#" class="login">Login</a> -->
+            <a href="#" class="try-for-free">This is a Beta version</a>
+        </div>
+    </header>
+    
+    <div class="top-banner">
+        <p>Spark your Transformation. Drive Efficiency. Discover the Power of GBS with Deloitte’s GBS Launchpad. Try now!</p>
+    </div>
+    
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Try GBS Launchpad for free.</h1>
+            <p>Something about the product!</p>
+            <div class="buttons">
+                <a href="#" class="btn" id="start-here-btn">Start Here</a>
+                <!-- <a href="#" class="btn">Watch demo</a> -->
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="https://img.freepik.com/premium-photo/engineers-inspect-wind-turbine-renewable-energy-maintenance_607202-16814.jpg?w=996" alt="Banner Image">
+        </div>
+    </section>
+    
+    <!-- <section class="info-section" id="info-section">
+        <div class="info-left">
+            <h2>Not sure, why GBS? Let's Get You Started!!</h2>
+            <p>GBS is rapidly emerging as the next big trend for forward-thinking organizations, with your peers already on this transformative journey.</p>
+            <div class="company-headcount">
+                <label for="headcount">Your Company Headcount</label>
+                <input type="number" id="headcount" name="headcount" placeholder="Enter Number">
+                <div class="headcount-buttons">
+                    <a href="#" class="btn-headcount">Know about GBS</a>
+                    <a href="#" class="btn-headcount">Get Savings Potential</a>
+                </div>
+            </div>
+        </div>
+        <div class="info-right">
+            <div class="info-row">
+                <div class="info-box" style="border-color: #8BC34A;">
+                    <h3>Up to 70% Cost Savings</h3>
+                    <p>By offshoring and setting up global business services (GBS) center in cost-effective locations compared to maintaining the same functions in high-cost regions.</p>
+                </div>
+                <div class="info-box" style="border-color: #03A9F4;">
+                    <h3>80% of Fortune 500 companies</h3>
+                    <p>Have a GBS organization due to their strategic importance in optimizing operations, improving efficiency, and leveraging economies of scale.</p>
+                </div>
+            </div>
+            <div class="info-row">
+                <div class="info-box" style="border-color: #FF9800;">
+                    <h3>30 – 40% Productivity Improvement</h3>
+                    <p>Observed by companies that implement GBS models because of streamlined processes, standardized procedures, and the use of advanced technologies like automation and artificial intelligence.</p>
+                </div>
+                <div class="info-image">
+                    <img src="https://img.freepik.com/free-photo/children-education-learning-study_53876-30581.jpg?w=996" alt="Children Learning">
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    <div class="reach-us">
+        <a href="#" class="btn-reach-us" id="reach-us-btn">Reach Us</a>
+    </div>
+
+    <!-- GBS Tools Section -->
+    <section class="gbs-tools">
+        <h1>Triple the Insight, Triple the Impact. Explore our tool components!</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="icon">
+                    <img src="global_reach_icon.png" alt="Global Reach Icon">
+                </div>
+                <h2>Global reach & influence</h2>
+                <p>Know how GBS delivers value across countries, and bringing positive impact to businesses</p>
+                <!-- <a href="#" class="btn" id="start-here-btn">Start Here</a> -->
+                <a href="#" id="global_reach_icon">Learn more</a>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="india_leading_hub_icon.png" alt="India Leading Hub Icon">
+                </div>
+                <h2>India: The Leading Hub</h2>
+                <p>Discover why India stands at the forefront of GBS excellence, driving CXO objectives</p>
+                <a href="#" id="india_leading_hub_icon">Learn more</a>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="inside_gbs_center_icon.png" alt="Inside GBS Center Icon">
+                </div>
+                <h2>Inside the GBS center</h2>
+                <p>Take an exclusive look into the operations and financials of a typical center</p>
+                <a href="#"" id="inside_gbs_center_icon"">Learn more</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Interactive Charts Section -->
+    <section class="charts-section">
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <video id="demo-video" width="100%" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
