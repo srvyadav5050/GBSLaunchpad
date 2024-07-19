@@ -11,7 +11,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
+
       gtag('config', 'G-CZN0VF8CN1');
     </script>
 </head>
@@ -21,17 +21,7 @@
         <div class="logo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Deloitte.svg" alt="Deloitte Logo" width="100">
         </div>
-        <!-- <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Clientele</a></li>
-                <li><a href="#">Thoughtware</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">More on GBS</a></li>
-            </ul>
-        </nav> -->
         <div class="actions">
-            <!-- <a href="#" class="login">Login</a> -->
             <a href="#" class="try-for-free">This is a Beta version</a>
         </div>
     </header>
@@ -42,59 +32,21 @@
     
     <section class="banner">
         <div class="banner-content">
-            <h1>Try GBS Launchpad for free!!</h1>
-<!--             <p>This interactive tool is designed to provide guidance on the benefits and strategies of establishing a Global Business Services (GBS) center. By leveraging intuitive navigation, advanced data visualization, precise cost calculators, and strategic location insights, our tool enables informed decision-making and strategic planning, to help drive the business forward, ensuring a future-ready, competitive edge in the global market. Perfect for C-suite executives.</p> -->
-                <p>
-                This interactive tool is designed to provide guidance on the benefits and strategies of establishing a Global Business Services (GBS) center.<br>
-                <br>By leveraging intuitive navigation, advanced data visualization, precise cost calculators, and strategic location insights,
-                our tool enables informed decision-making and strategic planning, to help drive the business forward,
-                ensuring a future-ready, competitive edge in the global market.<br>
-                </p>
+            <h1>Try GBS Launchpad for free.</h1>
+            <p>This interactive tool is designed to provide guidance on the benefits and 
+                strategies of establishing a Global Business Services (GBS) center.
+                <br><br>By leveraging intuitive navigation, advanced data visualization, 
+                precise cost calculators, and strategic location insights, 
+                our tool enables informed decision-making and strategic planning, 
+                to help drive the business forward, ensuring a future-ready, competitive edge in the global market.</p>
             <div class="buttons">
                 <a href="#" class="btn" id="start-here-btn">Start Here</a>
-                <!-- <a href="#" class="btn">Watch demo</a> -->
             </div>
         </div>
         <div class="banner-image">
-            <img src="https://img.freepik.com/premium-photo/engineers-inspect-wind-turbine-renewable-energy-maintenance_607202-16814.jpg?w=996" alt="Banner Image">
+            <img src="windmill.png" alt="Banner Image">
         </div>
     </section>
-    
-    <!-- <section class="info-section" id="info-section">
-        <div class="info-left">
-            <h2>Not sure, why GBS? Let's Get You Started!!</h2>
-            <p>GBS is rapidly emerging as the next big trend for forward-thinking organizations, with your peers already on this transformative journey.</p>
-            <div class="company-headcount">
-                <label for="headcount">Your Company Headcount</label>
-                <input type="number" id="headcount" name="headcount" placeholder="Enter Number">
-                <div class="headcount-buttons">
-                    <a href="#" class="btn-headcount">Know about GBS</a>
-                    <a href="#" class="btn-headcount">Get Savings Potential</a>
-                </div>
-            </div>
-        </div>
-        <div class="info-right">
-            <div class="info-row">
-                <div class="info-box" style="border-color: #8BC34A;">
-                    <h3>Up to 70% Cost Savings</h3>
-                    <p>By offshoring and setting up global business services (GBS) center in cost-effective locations compared to maintaining the same functions in high-cost regions.</p>
-                </div>
-                <div class="info-box" style="border-color: #03A9F4;">
-                    <h3>80% of Fortune 500 companies</h3>
-                    <p>Have a GBS organization due to their strategic importance in optimizing operations, improving efficiency, and leveraging economies of scale.</p>
-                </div>
-            </div>
-            <div class="info-row">
-                <div class="info-box" style="border-color: #FF9800;">
-                    <h3>30 – 40% Productivity Improvement</h3>
-                    <p>Observed by companies that implement GBS models because of streamlined processes, standardized procedures, and the use of advanced technologies like automation and artificial intelligence.</p>
-                </div>
-                <div class="info-image">
-                    <img src="https://img.freepik.com/free-photo/children-education-learning-study_53876-30581.jpg?w=996" alt="Children Learning">
-                </div>
-            </div>
-        </div>
-    </section> -->
     
     <div class="reach-us">
         <a href="#" class="btn-reach-us" id="reach-us-btn">Reach Us</a>
@@ -110,7 +62,6 @@
                 </div>
                 <h2>Global reach & influence</h2>
                 <p>Know how GBS delivers value across countries, and bringing positive impact to businesses</p>
-                <!-- <a href="#" class="btn" id="start-here-btn">Start Here</a> -->
                 <a href="#" id="global_reach_icon">Learn more</a>
             </div>
             <div class="card">
@@ -127,27 +78,56 @@
                 </div>
                 <h2>Inside the GBS center</h2>
                 <p>Take an exclusive look into the operations and financials of a typical center</p>
-                <a href="#"" id="inside_gbs_center_icon"">Learn more</a>
+                <a href="#" id="inside_gbs_center_icon">Learn more</a>
             </div>
         </div>
     </section>
     
     <!-- Interactive Charts Section -->
-<!--     <section class="charts-section">
-        <canvas id="myChart" width="400" height="200"></canvas>
-    </section> -->
+    <section class="charts-section">
+        <canvas id="myChart" width="400" height="20"></canvas>
+    </section>
 
-    <!-- Video Modal -->
-    <div id="video-modal" class="modal">
+    <!-- Audio Modals -->
+    <div id="audio-modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <video id="demo-video" width="100%" controls>
-                <source src="video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <audio id="demo-audio" width="100%" controls>
+                <source src="INTRO.MP3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="audio-modal2" class="modal2">
+        <div class="modal-content2">
+            <span class="close">&times;</span>
+            <audio id="demo-audio2" width="100%" controls>
+                <source src="GLOBAL.MP3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="audio-modal3" class="modal3">
+        <div class="modal-content3">
+            <span class="close">&times;</span>
+            <audio id="demo-audio3" width="100%" controls>
+                <source src="INDIA.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    <div id="audio-modal4" class="modal4">
+        <div class="modal-content4">
+            <span class="close">&times;</span>
+            <audio id="demo-audio4" width="100%" controls>
+                <source src="CALCULATORS.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
     </div>
 
     <script src="script.js"></script>
-</body>
-</html>
+</body
