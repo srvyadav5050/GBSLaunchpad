@@ -1,3 +1,34 @@
+/* Modal Content */
+.modal-content, .modal-content2, .modal-content3, .modal-content4 {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative; /* Ensure position relative for centering */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for proper centering */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -121,7 +152,7 @@ nav a {
 }
 
 .banner-image img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     border-radius: 10px;
 }
@@ -393,23 +424,6 @@ canvas {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content, .modal-content2, .modal-content3, .modal-content4 {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
 }
 
 .close:hover,
