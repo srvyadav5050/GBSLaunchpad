@@ -1,3 +1,9 @@
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth < 1024) { // Adjust the width threshold as needed
+        alert("This site is not compatible with mobile devices. Please open it on a desktop.");
+    }
+
 // Handle the first audio modal
 document.getElementById('start-here-btn').addEventListener('click', function(event) {
     event.preventDefault();
