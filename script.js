@@ -1,72 +1,70 @@
-// script.js
 document.addEventListener('DOMContentLoaded', function() {
-    if (window.innerWidth < 1024) { // Adjust the width threshold as needed
+    if (window.innerWidth < 1024) {
         alert("This site is not compatible with mobile devices. Please open it on a desktop.");
     }
-    
-    // Existing script content
+
     document.getElementById('start-here-btn').addEventListener('click', function(event) {
         event.preventDefault();
         const modal = document.getElementById('audio-modal');
-        const audio = document.getElementById('demo-audio');
+        const video = document.getElementById('demo-video');
         modal.style.display = 'block';
-        audio.play();
+        video.play();
     });
 
     document.querySelector('.modal .close').addEventListener('click', function() {
         const modal = document.getElementById('audio-modal');
-        const audio = document.getElementById('demo-audio');
+        const video = document.getElementById('demo-video');
         modal.style.display = 'none';
-        audio.pause();
-        audio.currentTime = 0;  // Reset audio to start
+        video.pause();
+        video.currentTime = 0;
     });
 
     document.getElementById('global_reach_icon').addEventListener('click', function(event) {
         event.preventDefault();
         const modal = document.getElementById('audio-modal2');
-        const audio = document.getElementById('demo-audio2');
+        const video = document.getElementById('demo-video2');
         modal.style.display = 'block';
-        audio.play();
+        video.play();
     });
 
     document.querySelector('.modal2 .close').addEventListener('click', function() {
         const modal = document.getElementById('audio-modal2');
-        const audio = document.getElementById('demo-audio2');
+        const video = document.getElementById('demo-video2');
         modal.style.display = 'none';
-        audio.pause();
-        audio.currentTime = 0;  // Reset audio to start
+        video.pause();
+        video.currentTime = 0;
     });
 
     document.getElementById('india_leading_hub_icon').addEventListener('click', function(event) {
         event.preventDefault();
         const modal = document.getElementById('audio-modal3');
-        const audio = document.getElementById('demo-audio3');
+        const video = document.getElementById('demo-video3');
         modal.style.display = 'block';
-        audio.play();
+        video.play();
     });
 
     document.querySelector('.modal3 .close').addEventListener('click', function() {
         const modal = document.getElementById('audio-modal3');
-        const audio = document.getElementById('demo-audio3');
+        const video = document.getElementById('demo-video3');
         modal.style.display = 'none';
-        audio.pause();
-        audio.currentTime = 0;  // Reset audio to start
+        video.pause();
+        video.currentTime = 0;
     });
 
     document.getElementById('inside_gbs_center_icon').addEventListener('click', function(event) {
         event.preventDefault();
         const modal = document.getElementById('audio-modal4');
-        const audio = document.getElementById('demo-audio4');
+        const video = document.getElementById('demo-video4');
         modal.style.display = 'block';
-        audio.play();
+        video.play();
     });
 
     document.querySelector('.modal4 .close').addEventListener('click', function() {
         const modal = document.getElementById('audio-modal4');
-        const audio = document.getElementById('demo-audio4');
+        const video = document.getElementById('demo-video4');
         modal.style.display = 'none';
-        audio.pause();
-        audio.currentTime = 0;  // Reset audio to start
+        video.pause();
+        video.currentTime = 0;
     });
 
     document.getElementById('reach-us-btn').addEventListener('click', function(event) {
@@ -79,17 +77,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('reach-us-btn').addEventListener('click', function(event) {
         event.preventDefault();
-    
-        // Start the download of the .msg file
         document.getElementById('download-link').click();
-    
-        // Show the popup message
         const popup = document.getElementById('popup-message');
         popup.style.display = 'block';
-    
-        // Close the popup when the close button is clicked
         document.querySelector('.close-popup').addEventListener('click', function() {
             popup.style.display = 'none';
         });
-    });    
+    });
 });
