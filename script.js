@@ -76,4 +76,20 @@ document.addEventListener('DOMContentLoaded', function() {
         const mailtoLink = `mailto:anuchadha@deloitte.com?subject=${subject}&body=${body}`;
         window.location.href = mailtoLink;
     });
+
+    document.getElementById('reach-us-btn').addEventListener('click', function(event) {
+        event.preventDefault();
+    
+        // Start the download of the .msg file
+        document.getElementById('download-link').click();
+    
+        // Show the popup message
+        const popup = document.getElementById('popup-message');
+        popup.style.display = 'block';
+    
+        // Close the popup when the close button is clicked
+        document.querySelector('.close-popup').addEventListener('click', function() {
+            popup.style.display = 'none';
+        });
+    });    
 });
