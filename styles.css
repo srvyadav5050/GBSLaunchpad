@@ -418,3 +418,10 @@ canvas {
     text-decoration: none;
     cursor: pointer;
 }
+
+.audio-logo {
+    margin-left: 8px;
+    width: 20px;  /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with the text */
+}
